@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 140" width="160" height="140" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      .bg { fill: transparent; }
+      .p-cream { fill: #F5ECD8; }
+      .p-muted { fill: #D7CFBE; }
+      .p-accent { fill: #BFAF8E; }
+      .p-dark { fill: #090909; }
+
+      @keyframes floatSaturn {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(-1.5deg); }
+      }
+
+      @keyframes ringShimmer {
+        0%, 100% { opacity: 0.9; }
+        50% { opacity: 0.5; }
+      }
+
+      .saturn-group {
+        animation: floatSaturn 7s ease-in-out infinite;
+        transform-origin: center;
+      }
+
+      .ring-shimmer {
+        animation: ringShimmer 3.5s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="160" height="140" class="bg"/>
+
+  <g class="saturn-group">
+    <!-- Back Ring (behind planet body) -->
+    <path d="M 20 60 H 40 V 56 H 70 V 52 H 100 V 56 H 130 V 60 H 140 V 64 H 130 V 68 H 100 V 72 H 70 V 68 H 40 V 64 H 20 Z" class="p-accent"/>
+    <path d="M 12 64 H 28 V 60 H 50 V 56 H 80 V 52 H 110 V 56 H 138 V 60 H 148 V 64 Z" class="p-muted ring-shimmer"/>
+
+    <!-- Planet Main Body Sphere (Pixel Circles) -->
+    <rect x="64" y="32" width="32" height="64" class="p-cream"/>
+    <rect x="56" y="36" width="48" height="56" class="p-cream"/>
+    <rect x="52" y="44" width="56" height="40" class="p-cream"/>
+    <rect x="48" y="52" width="64" height="24" class="p-cream"/>
+
+    <!-- Planet Bands & Shading -->
+    <!-- Top Shade -->
+    <rect x="56" y="36" width="48" height="4" class="p-muted"/>
+    <rect x="64" y="32" width="32" height="4" class="p-accent"/>
+
+    <!-- Band 1 -->
+    <rect x="52" y="48" width="56" height="4" class="p-accent"/>
+    <!-- Band 2 -->
+    <rect x="48" y="60" width="64" height="4" class="p-muted"/>
+    <!-- Band 3 -->
+    <rect x="48" y="68" width="64" height="4" class="p-accent"/>
+
+    <!-- Bottom Crater / Shadow -->
+    <rect x="52" y="80" width="56" height="4" class="p-muted"/>
+    <rect x="56" y="84" width="48" height="4" class="p-dark"/>
+    <rect x="64" y="88" width="32" height="4" class="p-dark"/>
+
+    <!-- Front Ring (in front of planet body) -->
+    <!-- Outer Ring Front -->
+    <path d="M 8 72 H 24 V 76 H 48 V 80 H 80 V 84 H 112 V 80 H 136 V 76 H 152 V 72 H 140 V 76 H 116 V 80 H 80 V 84 H 44 V 80 H 20 V 76 H 8 Z" class="p-cream"/>
+
+    <!-- Inner Ring Accent Front -->
+    <path d="M 20 68 H 36 V 72 H 60 V 76 H 100 V 76 H 124 V 72 H 140 V 68 H 132 V 72 H 104 V 76 H 56 V 72 H 28 V 68 Z" class="p-accent"/>
+
+    <!-- Ring Gap Void -->
+    <path d="M 28 y 68 H 40 V 72 H 120 V 68 H 132 V 72 H 28 Z" class="p-dark" opacity="0.3"/>
+
+    <!-- Tiny Moons / Satellites nearby -->
+    <rect x="18" y="24" width="4" height="4" class="p-cream"/>
+    <rect x="142" y="96" width="3" height="3" class="p-accent"/>
+  </g>
+</svg>

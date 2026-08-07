@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Nucleus -->
+  <rect x="10" y="10" width="4" height="4" fill="#F5ECD8"/>
+  <!-- Orbital Rings -->
+  <rect x="3" y="11" width="18" height="2" fill="#BFAF8E"/>
+  <rect x="5" y="7" width="14" height="2" fill="#D7CFBE"/>
+  <rect x="5" y="15" width="14" height="2" fill="#D7CFBE"/>
+  <rect x="7" y="5" width="2" height="14" fill="#D7CFBE"/>
+  <rect x="15" y="5" width="2" height="14" fill="#D7CFBE"/>
+</svg>

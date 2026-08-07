@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 160" width="140" height="160" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      .bg { fill: transparent; }
+      .p-cream { fill: #F5ECD8; }
+      .p-muted { fill: #D7CFBE; }
+      .p-accent { fill: #BFAF8E; }
+      .p-dark { fill: #090909; }
+
+      @keyframes rocketTrajectory {
+        0%, 100% { transform: translateY(0px) translateX(0px); }
+        50% { transform: translateY(-10px) translateX(4px); }
+      }
+
+      @keyframes thrusterFlame {
+        0%, 100% { opacity: 1; transform: scaleY(1); }
+        50% { opacity: 0.5; transform: scaleY(0.75); }
+      }
+
+      .rocket-group {
+        animation: rocketTrajectory 4.5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .flame {
+        animation: thrusterFlame 0.4s steps(2, start) infinite;
+        transform-origin: top;
+      }
+    </style>
+  </defs>
+
+  <rect width="140" height="160" class="bg"/>
+
+  <g class="rocket-group">
+    <!-- Rocket Nosecone -->
+    <rect x="64" y="16" width="12" height="8" class="p-accent"/>
+    <rect x="60" y="24" width="20" height="12" class="p-cream"/>
+    <rect x="56" y="36" width="28" height="16" class="p-cream"/>
+
+    <!-- Main Fuselage Body -->
+    <rect x="52" y="52" width="36" height="48" class="p-cream"/>
+    <rect x="48" y="60" width="44" height="32" class="p-cream"/>
+
+    <!-- Fuselage Shading & Details -->
+    <rect x="76" y="52" width="12" height="48" class="p-muted"/>
+    <rect x="56" y="52" width="28" height="4" class="p-accent"/>
+
+    <!-- Porthole Window -->
+    <rect x="60" y="64" width="20" height="20" class="p-accent"/>
+    <rect x="64" y="68" width="12" height="12" class="p-dark"/>
+    <rect x="64" y="68" width="4" height="4" class="p-cream"/>
+
+    <!-- Fins (Left & Right) -->
+    <!-- Left Fin -->
+    <rect x="36" y="76" width="12" height="28" class="p-accent"/>
+    <rect x="40" y="72" width="8" height="36" class="p-accent"/>
+    <rect x="44" y="104" width="4" height="12" class="p-muted"/>
+    <!-- Right Fin -->
+    <rect x="92" y="76" width="12" height="28" class="p-accent"/>
+    <rect x="92" y="72" width="8" height="36" class="p-accent"/>
+    <rect x="92" y="104" width="4" height="12" class="p-muted"/>
+
+    <!-- Engine Nozzle -->
+    <rect x="56" y="100" width="28" height="12" class="p-muted"/>
+    <rect x="60" y="112" width="20" height="8" class="p-dark"/>
+
+    <!-- Pixel Thruster Flame Exhaust -->
+    <g class="flame">
+      <rect x="64" y="120" width="12" height="16" class="p-cream"/>
+      <rect x="60" y="124" width="20" height="8" class="p-accent"/>
+      <rect x="64" y="136" width="12" height="12" class="p-accent"/>
+      <rect x="68" y="148" width="4" height="8" class="p-muted"/>
+    </g>
+
+    <!-- Speed Sparks -->
+    <rect x="32" y="44" width="4" height="4" class="p-muted"/>
+    <rect x="104" y="36" width="3" height="3" class="p-accent"/>
+  </g>
+</svg>

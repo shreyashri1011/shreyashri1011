@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Top Left Bubble -->
+  <rect x="5" y="3" width="7" height="6" fill="#F5ECD8"/>
+  <!-- Top Right Bubble -->
+  <rect x="12" y="3" width="7" height="6" fill="#BFAF8E"/>
+  <!-- Middle Left Bubble -->
+  <rect x="5" y="9" width="7" height="6" fill="#D7CFBE"/>
+  <!-- Middle Right Bubble -->
+  <rect x="12" y="9" width="7" height="6" fill="#F5ECD8"/>
+  <!-- Bottom Drop Teardrop -->
+  <rect x="5" y="15" width="7" height="6" fill="#BFAF8E"/>
+  <rect x="5" y="19" width="4" height="2" fill="#BFAF8E"/>
+</svg>

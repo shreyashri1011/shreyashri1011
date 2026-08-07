@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Docker Whale Containers -->
+  <rect x="6" y="8" width="3" height="3" fill="#BFAF8E"/>
+  <rect x="10" y="8" width="3" height="3" fill="#BFAF8E"/>
+  <rect x="14" y="8" width="3" height="3" fill="#BFAF8E"/>
+  <rect x="10" y="4" width="3" height="3" fill="#F5ECD8"/>
+
+  <!-- Whale Body -->
+  <rect x="2" y="12" width="18" height="6" fill="#F5ECD8"/>
+  <rect x="4" y="18" width="14" height="3" fill="#F5ECD8"/>
+  <!-- Eye -->
+  <rect x="16" y="14" width="2" height="2" fill="#090909"/>
+  <!-- Tail -->
+  <rect x="20" y="10" width="3" height="4" fill="#D7CFBE"/>
+</svg>

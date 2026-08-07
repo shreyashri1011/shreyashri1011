@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" shape-rendering="crispEdges">
+  <!-- Coffee Steam -->
+  <rect x="10" y="2" width="2" height="4" fill="#BFAF8E"/>
+  <rect x="14" y="3" width="2" height="4" fill="#D7CFBE"/>
+  <!-- Cup Body -->
+  <rect x="6" y="8" width="12" height="10" fill="#F5ECD8"/>
+  <rect x="8" y="18" width="8" height="2" fill="#F5ECD8"/>
+  <!-- Cup Handle -->
+  <rect x="18" y="10" width="3" height="6" fill="#BFAF8E"/>
+  <rect x="19" y="12" width="1" height="2" fill="#090909"/>
+  <!-- Saucer Base -->
+  <rect x="4" y="21" width="16" height="2" fill="#BFAF8E"/>
+</svg>

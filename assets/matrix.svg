@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="160" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      .bg { fill: #090909; }
+      .p-lead { fill: #F5ECD8; }
+      .p-mid { fill: #D7CFBE; opacity: 0.65; }
+      .p-tail { fill: #BFAF8E; opacity: 0.3; }
+
+      @keyframes matrixRain {
+        0% { transform: translateY(-160px); }
+        100% { transform: translateY(160px); }
+      }
+
+      .col-1 { animation: matrixRain 6s linear infinite; }
+      .col-2 { animation: matrixRain 9s linear infinite 1.5s; }
+      .col-3 { animation: matrixRain 7.5s linear infinite 0.8s; }
+      .col-4 { animation: matrixRain 8.2s linear infinite 3.1s; }
+      .col-5 { animation: matrixRain 5.8s linear infinite 2.2s; }
+      .col-6 { animation: matrixRain 10s linear infinite 4s; }
+      .col-7 { animation: matrixRain 7s linear infinite 1s; }
+      .col-8 { animation: matrixRain 8.8s linear infinite 2.7s; }
+    </style>
+  </defs>
+
+  <rect width="800" height="160" class="bg"/>
+
+  <!-- Column 1 (x=60) -->
+  <g class="col-1">
+    <rect x="60" y="20" width="6" height="6" class="p-tail"/>
+    <rect x="60" y="32" width="6" height="6" class="p-mid"/>
+    <rect x="60" y="44" width="6" height="6" class="p-mid"/>
+    <rect x="60" y="56" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 2 (x=150) -->
+  <g class="col-2">
+    <rect x="150" y="10" width="6" height="6" class="p-tail"/>
+    <rect x="150" y="26" width="6" height="6" class="p-mid"/>
+    <rect x="150" y="42" width="6" height="6" class="p-mid"/>
+    <rect x="150" y="58" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 3 (x=270) -->
+  <g class="col-3">
+    <rect x="270" y="30" width="6" height="6" class="p-tail"/>
+    <rect x="270" y="46" width="6" height="6" class="p-mid"/>
+    <rect x="270" y="62" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 4 (x=380) -->
+  <g class="col-4">
+    <rect x="380" y="15" width="6" height="6" class="p-tail"/>
+    <rect x="380" y="31" width="6" height="6" class="p-mid"/>
+    <rect x="380" y="47" width="6" height="6" class="p-mid"/>
+    <rect x="380" y="63" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 5 (x=490) -->
+  <g class="col-5">
+    <rect x="490" y="25" width="6" height="6" class="p-tail"/>
+    <rect x="490" y="41" width="6" height="6" class="p-mid"/>
+    <rect x="490" y="57" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 6 (x=590) -->
+  <g class="col-6">
+    <rect x="590" y="5" width="6" height="6" class="p-tail"/>
+    <rect x="590" y="21" width="6" height="6" class="p-mid"/>
+    <rect x="590" y="37" width="6" height="6" class="p-mid"/>
+    <rect x="590" y="53" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 7 (x=680) -->
+  <g class="col-7">
+    <rect x="680" y="40" width="6" height="6" class="p-tail"/>
+    <rect x="680" y="56" width="6" height="6" class="p-mid"/>
+    <rect x="680" y="72" width="6" height="6" class="p-lead"/>
+  </g>
+
+  <!-- Column 8 (x=750) -->
+  <g class="col-8">
+    <rect x="750" y="18" width="6" height="6" class="p-tail"/>
+    <rect x="750" y="34" width="6" height="6" class="p-mid"/>
+    <rect x="750" y="50" width="6" height="6" class="p-lead"/>
+  </g>
+</svg>

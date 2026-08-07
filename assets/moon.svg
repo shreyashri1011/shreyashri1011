@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      .bg { fill: transparent; }
+      .p-cream { fill: #F5ECD8; }
+      .p-muted { fill: #D7CFBE; }
+      .p-accent { fill: #BFAF8E; }
+      .p-dark { fill: #090909; }
+
+      @keyframes moonFloat {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-6px) rotate(2deg); }
+      }
+      @keyframes craterShimmer {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.7; }
+      }
+
+      .moon-group {
+        animation: moonFloat 8s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .crater {
+        animation: craterShimmer 4s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="120" height="120" class="bg"/>
+
+  <g class="moon-group">
+    <!-- Outer Pixel Moon Glow ring -->
+    <rect x="40" y="8" width="40" height="104" class="p-accent" opacity="0.15"/>
+    <rect x="24" y="16" width="72" height="88" class="p-accent" opacity="0.15"/>
+    <rect x="16" y="24" width="88" height="72" class="p-accent" opacity="0.15"/>
+
+    <!-- Main Moon Sphere -->
+    <rect x="40" y="16" width="40" height="88" class="p-cream"/>
+    <rect x="28" y="24" width="64" height="72" class="p-cream"/>
+    <rect x="20" y="32" width="80" height="56" class="p-cream"/>
+    <rect x="16" y="40" width="88" height="40" class="p-cream"/>
+
+    <!-- Moon Shading (Right Dark Side / Crescent edge) -->
+    <rect x="76" y="24" width="16" height="72" class="p-muted"/>
+    <rect x="88" y="32" width="12" height="56" class="p-accent"/>
+    <rect x="96" y="40" width="8" height="40" class="p-dark"/>
+
+    <!-- Pixel Craters -->
+    <!-- Large Crater Top Left -->
+    <g class="crater">
+      <rect x="36" y="32" width="16" height="16" class="p-muted"/>
+      <rect x="40" y="36" width="8" height="8" class="p-accent"/>
+      <rect x="36" y="44" width="12" height="4" class="p-accent"/>
+    </g>
+
+    <!-- Medium Crater Center -->
+    <g class="crater">
+      <rect x="56" y="56" width="20" height="20" class="p-muted"/>
+      <rect x="60" y="60" width="12" height="12" class="p-accent"/>
+      <rect x="64" y="64" width="4" height="4" class="p-dark"/>
+    </g>
+
+    <!-- Small Crater Bottom Left -->
+    <g class="crater">
+      <rect x="32" y="72" width="12" height="12" class="p-muted"/>
+      <rect x="36" y="76" width="4" height="4" class="p-accent"/>
+    </g>
+
+    <!-- Tiny Craters -->
+    <rect x="68" y="32" width="8" height="8" class="p-muted"/>
+    <rect x="44" y="90" width="12" height="6" class="p-muted"/>
+
+    <!-- Orbiting Pixel Dust / Micro Star -->
+    <rect x="8" y="24" width="3" height="3" class="p-cream"/>
+    <rect x="108" y="88" width="4" height="4" class="p-accent"/>
+  </g>
+</svg>

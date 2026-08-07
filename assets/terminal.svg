@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="100%" height="260" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=VT323&amp;family=Share+Tech+Mono&amp;display=swap');
+
+      .bg { fill: #090909; stroke: #BFAF8E; stroke-width: 3; }
+      .header-bg { fill: #BFAF8E; }
+      .header-text { fill: #090909; font-family: 'VT323', 'Courier New', monospace; font-size: 20px; font-weight: bold; letter-spacing: 2px; }
+      .term-text { fill: #F5ECD8; font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 17px; }
+      .term-accent { fill: #BFAF8E; font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 17px; font-weight: bold; }
+      .term-muted { fill: #D7CFBE; font-family: 'Share Tech Mono', 'Courier New', monospace; font-size: 15px; }
+      .btn-pixel { fill: #090909; }
+
+      @keyframes cursorBlink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0; }
+      }
+
+      @keyframes terminalFloat {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-5px); }
+      }
+
+      .blinking-cursor {
+        animation: cursorBlink 1s infinite;
+        fill: #F5ECD8;
+      }
+
+      .floating-window {
+        animation: terminalFloat 6s ease-in-out infinite;
+      }
+    </style>
+  </defs>
+
+  <g class="floating-window">
+    <!-- Outer Terminal Chassis Box -->
+    <rect x="4" y="4" width="752" height="252" class="bg"/>
+
+    <!-- Terminal Window Header Bar -->
+    <rect x="4" y="4" width="752" height="36" class="header-bg"/>
+
+    <!-- Pixel Window Controls (Left Top) -->
+    <rect x="16" y="14" width="16" height="16" class="btn-pixel"/>
+    <rect x="38" y="14" width="16" height="16" class="btn-pixel"/>
+    <rect x="60" y="14" width="16" height="16" class="btn-pixel"/>
+
+    <!-- Window Title -->
+    <text x="380" y="28" text-anchor="middle" class="header-text">[ MISSION LOG :: NASA-STATION-09 ]</text>
+
+    <!-- Status Indicator Right Top -->
+    <rect x="710" y="16" width="24" height="12" class="btn-pixel"/>
+    <rect x="714" y="18" width="16" height="8" class="p-cream" fill="#F5ECD8"/>
+
+    <!-- Inner Terminal Screen Content -->
+    <!-- Line 1: System Init -->
+    <text x="32" y="74" class="term-muted">SYS_INIT &gt; CONNECTED TO SPACE_NET // PROTOCOL_ID: SHREYA_0x09</text>
+
+    <!-- Line 2: Prompt Command -->
+    <text x="32" y="104" class="term-accent">shreya@orbit-os:~$ </text>
+    <text x="210" y="104" class="term-text">cat current_mission_log.txt</text>
+
+    <!-- Divider Line inside terminal -->
+    <line x1="32" y1="118" x2="728" y2="118" stroke="#BFAF8E" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+
+    <!-- Mission Log Bullet Points -->
+    <text x="32" y="144" class="term-accent">[+] CURRENTLY BUILDING &amp; RESEARCHING:</text>
+
+    <text x="64" y="174" class="term-text">• Machine Learning</text>
+    <text x="400" y="174" class="term-muted">[ Deep Learning &amp; Neural Nets ]</text>
+
+    <text x="64" y="202" class="term-text">• Cybersecurity Implementation</text>
+    <text x="400" y="202" class="term-muted">[ Network Defense &amp; Encryption ]</text>
+
+    <text x="64" y="230" class="term-text">• DSA</text>
+    <text x="400" y="230" class="term-muted">[ High-Performance Algorithms ]</text>
+
+    <!-- Blinking Cursor after text -->
+    <rect x="135" y="216" width="10" height="18" class="blinking-cursor"/>
+  </g>
+</svg>
