@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" width="100%" height="260" shape-rendering="crispEdges">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 240" width="100%" height="240" shape-rendering="crispEdges">
   <defs>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=VT323&amp;display=swap');
 
       .bg { fill: #090909; stroke: #BFAF8E; stroke-width: 2; }
-      .box-bg { fill: #090909; stroke: #BFAF8E; stroke-width: 2; }
+      .box-bg { fill: #090909; stroke: #BFAF8E; stroke-width: 1.5; }
       .title-text { fill: #F5ECD8; font-family: 'VT323', monospace; font-size: 24px; letter-spacing: 2px; }
-      .sub-title { fill: #BFAF8E; font-family: 'Share Tech Mono', monospace; font-size: 14px; }
+      .sub-title { fill: #BFAF8E; font-family: 'Share Tech Mono', monospace; font-size: 13px; }
       .tech-name { fill: #F5ECD8; font-family: 'Share Tech Mono', monospace; font-size: 15px; font-weight: bold; }
       .tech-cat { fill: #BFAF8E; font-family: 'Share Tech Mono', monospace; font-size: 11px; }
 
@@ -16,77 +16,79 @@
     </style>
   </defs>
 
-  <rect width="760" height="260" fill="#090909"/>
+  <rect width="850" height="240" fill="#090909"/>
 
   <!-- Section Header Box -->
-  <rect x="0" y="0" width="760" height="48" class="box-bg"/>
-  <text x="24" y="32" class="title-text">&gt; TECH ARSENAL :: SYSTEM_CAPABILITIES</text>
-  <text x="736" y="30" text-anchor="end" class="sub-title">[ TOTAL: 7 MODULES ]</text>
+  <g transform="translate(10, 5)">
+    <rect x="0" y="0" width="830" height="44" class="box-bg"/>
+    <text x="20" y="28" class="title-text">&gt; TECH ARSENAL :: SYSTEM_CAPABILITIES</text>
+    <text x="810" y="27" text-anchor="end" class="sub-title">[ TOTAL: 7 MODULES ]</text>
+  </g>
 
-  <!-- Grid of 7 Tech Cards (2 Rows: Row 1 = 4 items, Row 2 = 3 items) -->
+  <!-- Grid of 7 Tech Cards (Row 1 = 4 items, Row 2 = 3 items) -->
 
   <!-- ROW 1 -->
   <!-- 1. Python -->
-  <g transform="translate(10, 65)">
-    <rect x="0" y="0" width="170" height="80" class="box-bg"/>
+  <g transform="translate(10, 60)">
+    <rect x="0" y="0" width="195" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="14" y="36" class="tech-name">PYTHON</text>
-    <text x="14" y="54" class="tech-cat">CORE / SCRIPTING</text>
-    <rect x="14" y="64" width="142" height="4" class="p-accent"/>
+    <text x="14" y="34" class="tech-name">PYTHON</text>
+    <text x="14" y="50" class="tech-cat">CORE / SCRIPTING</text>
+    <rect x="14" y="58" width="167" height="3" class="p-accent"/>
   </g>
 
   <!-- 2. Java -->
-  <g transform="translate(195, 65)">
-    <rect x="0" y="0" width="170" height="80" class="box-bg"/>
+  <g transform="translate(220, 60)">
+    <rect x="0" y="0" width="195" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="14" y="36" class="tech-name">JAVA</text>
-    <text x="14" y="54" class="tech-cat">BACKEND / OOP</text>
-    <rect x="14" y="64" width="142" height="4" class="p-accent"/>
+    <text x="14" y="34" class="tech-name">JAVA</text>
+    <text x="14" y="50" class="tech-cat">BACKEND / OOP</text>
+    <rect x="14" y="58" width="167" height="3" class="p-accent"/>
   </g>
 
   <!-- 3. C -->
-  <g transform="translate(380, 65)">
-    <rect x="0" y="0" width="170" height="80" class="box-bg"/>
+  <g transform="translate(430, 60)">
+    <rect x="0" y="0" width="195" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="14" y="36" class="tech-name">C</text>
-    <text x="14" y="54" class="tech-cat">PROCEDURAL / SYS</text>
-    <rect x="14" y="64" width="142" height="4" class="p-accent"/>
+    <text x="14" y="34" class="tech-name">C</text>
+    <text x="14" y="50" class="tech-cat">PROCEDURAL / SYS</text>
+    <rect x="14" y="58" width="167" height="3" class="p-accent"/>
   </g>
 
   <!-- 4. C++ -->
-  <g transform="translate(565, 65)">
-    <rect x="0" y="0" width="180" height="80" class="box-bg"/>
+  <g transform="translate(640, 60)">
+    <rect x="0" y="0" width="200" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="14" y="36" class="tech-name">C++</text>
-    <text x="14" y="54" class="tech-cat">SYSTEMS / DSA</text>
-    <rect x="14" y="64" width="152" height="4" class="p-accent"/>
+    <text x="14" y="34" class="tech-name">C++</text>
+    <text x="14" y="50" class="tech-cat">SYSTEMS / DSA</text>
+    <rect x="14" y="58" width="172" height="3" class="p-accent"/>
   </g>
 
   <!-- ROW 2 -->
   <!-- 5. Figma -->
-  <g transform="translate(10, 160)">
-    <rect x="0" y="0" width="230" height="80" class="box-bg"/>
+  <g transform="translate(10, 145)">
+    <rect x="0" y="0" width="260" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="16" y="36" class="tech-name">FIGMA</text>
-    <text x="16" y="54" class="tech-cat">UI/UX DESIGN &amp; PROTOTYPING</text>
-    <rect x="16" y="64" width="198" height="4" class="p-cream"/>
+    <text x="16" y="34" class="tech-name">FIGMA</text>
+    <text x="16" y="50" class="tech-cat">UI/UX DESIGN &amp; PROTOTYPING</text>
+    <rect x="16" y="58" width="228" height="3" class="p-cream"/>
   </g>
 
   <!-- 6. Flutter -->
-  <g transform="translate(255, 160)">
-    <rect x="0" y="0" width="235" height="80" class="box-bg"/>
+  <g transform="translate(285, 145)">
+    <rect x="0" y="0" width="265" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="16" y="36" class="tech-name">FLUTTER</text>
-    <text x="16" y="54" class="tech-cat">CROSS-PLATFORM MOBILE</text>
-    <rect x="16" y="64" width="203" height="4" class="p-cream"/>
+    <text x="16" y="34" class="tech-name">FLUTTER</text>
+    <text x="16" y="50" class="tech-cat">CROSS-PLATFORM MOBILE</text>
+    <rect x="16" y="58" width="233" height="3" class="p-cream"/>
   </g>
 
   <!-- 7. React -->
-  <g transform="translate(505, 160)">
-    <rect x="0" y="0" width="240" height="80" class="box-bg"/>
+  <g transform="translate(565, 145)">
+    <rect x="0" y="0" width="275" height="72" class="box-bg"/>
     <rect x="8" y="8" width="16" height="4" class="p-accent"/>
-    <text x="16" y="36" class="tech-name">REACT</text>
-    <text x="16" y="54" class="tech-cat">FRONTEND WEB UI</text>
-    <rect x="16" y="64" width="208" height="4" class="p-cream"/>
+    <text x="16" y="34" class="tech-name">REACT</text>
+    <text x="16" y="50" class="tech-cat">FRONTEND WEB UI</text>
+    <rect x="16" y="58" width="243" height="3" class="p-cream"/>
   </g>
 </svg>
