@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 260" width="100%" height="260" shape-rendering="crispEdges">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=VT323&amp;family=Share+Tech+Mono&amp;display=swap');
+
+      .bg { fill: #090909; stroke: #BFAF8E; stroke-width: 2; }
+      .box-bg { fill: #090909; stroke: #BFAF8E; stroke-width: 1.5; }
+      .stat-num { font-family: 'VT323', monospace; font-size: 46px; fill: #F5ECD8; }
+      .stat-label { font-family: 'Share Tech Mono', monospace; font-size: 13px; fill: #D7CFBE; letter-spacing: 1px; }
+      .stat-title { font-family: 'VT323', monospace; font-size: 20px; fill: #BFAF8E; letter-spacing: 2px; }
+      .lang-name { font-family: 'Share Tech Mono', monospace; font-size: 13px; fill: #F5ECD8; }
+      .lang-pct { font-family: 'Share Tech Mono', monospace; font-size: 12px; fill: #BFAF8E; }
+
+      @keyframes pulseLed {
+        0%, 100% { fill: #F5ECD8; opacity: 1; }
+        50% { fill: #BFAF8E; opacity: 0.3; }
+      }
+
+      .led-blink {
+        animation: pulseLed 1.2s infinite;
+      }
+    </style>
+  </defs>
+
+  <rect width="850" height="260" fill="#090909"/>
+
+  <!-- Left Card: Orbit Statistics -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="410" height="240" class="bg"/>
+    
+    <!-- Title Bar -->
+    <rect x="0" y="0" width="410" height="32" fill="#BFAF8E"/>
+    <text x="14" y="22" font-family="'VT323', monospace" font-size="17" fill="#090909" font-weight="bold">[ TELEMETRY // STATS OVERVIEW ]</text>
+    <rect x="382" y="10" width="12" height="12" class="led-blink"/>
+
+    <!-- Stat 1: Total Commits/Contributions -->
+    <g transform="translate(25, 60)">
+      <text x="0" y="38" class="stat-num">120+</text>
+      <text x="0" y="60" class="stat-label">TOTAL CONTRIBUTIONS</text>
+    </g>
+
+    <!-- Divider Line -->
+    <line x1="205" y1="50" x2="205" y2="210" stroke="#BFAF8E" stroke-width="1" stroke-dasharray="4 4" opacity="0.4"/>
+
+    <!-- Stat 2: Streak -->
+    <g transform="translate(230, 60)">
+      <text x="0" y="38" class="stat-num">17 DAYS</text>
+      <text x="0" y="60" class="stat-label">CURRENT ORBIT STREAK</text>
+    </g>
+
+    <!-- Bottom Metric Bar -->
+    <g transform="translate(25, 150)">
+      <rect x="0" y="0" width="360" height="60" class="box-bg"/>
+      <text x="16" y="24" class="stat-title">&gt; SYSTEM HEALTH: 100% ONLINE</text>
+      <text x="16" y="44" class="stat-label">LOCATION: ORBITAL STATION SHREYASHRI1011</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Top Languages Matrix -->
+  <g transform="translate(430, 10)">
+    <rect x="0" y="0" width="410" height="240" class="bg"/>
+    
+    <!-- Title Bar -->
+    <rect x="0" y="0" width="410" height="32" fill="#BFAF8E"/>
+    <text x="14" y="22" font-family="'VT323', monospace" font-size="17" fill="#090909" font-weight="bold">[ LANGUAGE METRICS MATRIX ]</text>
+
+    <!-- Language Progress Bars -->
+    <!-- 1. Python -->
+    <g transform="translate(20, 50)">
+      <text x="0" y="14" class="lang-name">Python</text>
+      <text x="370" y="14" text-anchor="end" class="lang-pct">40%</text>
+      <rect x="0" y="22" width="370" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
+      <rect x="2" y="24" width="146" height="4" fill="#F5ECD8"/>
+    </g>
+
+    <!-- 2. Java -->
+    <g transform="translate(20, 95)">
+      <text x="0" y="14" class="lang-name">Java</text>
+      <text x="370" y="14" text-anchor="end" class="lang-pct">25%</text>
+      <rect x="0" y="22" width="370" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
+      <rect x="2" y="24" width="90" height="4" fill="#BFAF8E"/>
+    </g>
+
+    <!-- 3. C / C++ -->
+    <g transform="translate(20, 140)">
+      <text x="0" y="14" class="lang-name">C / C++</text>
+      <text x="370" y="14" text-anchor="end" class="lang-pct">20%</text>
+      <rect x="0" y="22" width="370" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
+      <rect x="2" y="24" width="72" height="4" fill="#D7CFBE"/>
+    </g>
+
+    <!-- 4. Flutter / React & UI -->
+    <g transform="translate(20, 185)">
+      <text x="0" y="14" class="lang-name">Flutter / React / Figma</text>
+      <text x="370" y="14" text-anchor="end" class="lang-pct">15%</text>
+      <rect x="0" y="22" width="370" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
+      <rect x="2" y="24" width="54" height="4" fill="#F5ECD8"/>
+    </g>
+  </g>
+</svg>

@@ -48,33 +48,17 @@
 
 <br/><br/>
 
-<!-- TELEMETRY & GITHUB ORBIT STATS -->
+<!-- TELEMETRY & GITHUB ORBIT STATS HEADER -->
 <img src="assets/stats_header.svg" width="100%" alt="Stats Header" />
 
-<br/>
+<br/><br/>
 
-<!-- INTEGRATED GITHUB STATS & STREAK (USERNAME: shreyashri1011, MONOCHROME PALETTE: #090909 background, #F5ECD8 text, #BFAF8E title/accents) -->
-<table align="center" border="0" cellpadding="0" cellspacing="0" style="background: #090909; border-collapse: collapse;">
-  <tr>
-    <td align="center" padding="8">
-      <img src="https://github-readme-stats.vercel.app/api?username=shreyashri1011&show_icons=true&theme=dark&bg_color=090909&title_color=BFAF8E&text_color=F5ECD8&icon_color=BFAF8E&border_color=BFAF8E&hide_border=false" width="410" alt="Shreya's GitHub Stats" />
-    </td>
-    <td align="center" padding="8">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shreyashri1011&layout=compact&theme=dark&bg_color=090909&title_color=BFAF8E&text_color=F5ECD8&border_color=BFAF8E&hide_border=false" width="350" alt="Shreya's Top Languages" />
-    </td>
-  </tr>
-</table>
+<!-- RELIABLE INTEGRATED ORBIT TELEMETRY & LANGUAGE MATRIX (100% SELF-CONTAINED SVG) -->
+<img src="assets/telemetry_stats.svg" width="100%" alt="Orbit Telemetry & Stats Matrix" />
 
-<br/>
+<br/><br/>
 
-<!-- STREAK STATS (USERNAME: shreyashri1011) -->
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=shreyashri1011&theme=dark&background=090909&currStreakNum=F5ECD8&sideNums=F5ECD8&sideLabels=D7CFBE&dates=BFAF8E&fire=BFAF8E&ring=BFAF8E&stroke=BFAF8E" width="760" alt="GitHub Streak Stats" />
-</p>
-
-<br/>
-
-<!-- CONTRIBUTIONS SNAKE ANIMATION -->
+<!-- CONTRIBUTIONS SNAKE ANIMATION (100% SELF-CONTAINED SVG) -->
 <p align="center">
   <img src="assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake Grid" />
 </p>
