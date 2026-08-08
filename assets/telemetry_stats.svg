@@ -47,54 +47,5 @@
       <text x="0" y="32" class="stat-num">17 DAYS</text>
       <text x="0" y="52" class="stat-label">CURRENT ORBIT STREAK</text>
     </g>
-
-    <!-- Bottom Metric Bar -->
-    <g transform="translate(15, 140)">
-      <rect x="0" y="0" width="375" height="70" class="box-bg"/>
-      <text x="14" y="24" class="stat-title">&gt; SYSTEM HEALTH: 100% ONLINE</text>
-      <text x="14" y="48" class="stat-label">ORBITAL STATION :: SHREYASHRI1011</text>
-    </g>
-  </g>
-
-  <!-- Right Card: Top Languages Matrix -->
-  <g transform="translate(435, 5)">
-    <rect x="0" y="0" width="405" height="225" class="bg"/>
-    
-    <!-- Title Bar -->
-    <rect x="0" y="0" width="405" height="32" fill="#BFAF8E"/>
-    <text x="14" y="22" font-family="'VT323', monospace" font-size="17" fill="#090909" font-weight="bold">[ LANGUAGE METRICS MATRIX ]</text>
-
-    <!-- Language Progress Bars -->
-    <!-- 1. Python -->
-    <g transform="translate(20, 45)">
-      <text x="0" y="14" class="lang-name">Python</text>
-      <text x="365" y="14" text-anchor="end" class="lang-pct">40%</text>
-      <rect x="0" y="22" width="365" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
-      <rect x="2" y="24" width="144" height="4" fill="#F5ECD8"/>
-    </g>
-
-    <!-- 2. Java -->
-    <g transform="translate(20, 88)">
-      <text x="0" y="14" class="lang-name">Java</text>
-      <text x="365" y="14" text-anchor="end" class="lang-pct">25%</text>
-      <rect x="0" y="22" width="365" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
-      <rect x="2" y="24" width="90" height="4" fill="#BFAF8E"/>
-    </g>
-
-    <!-- 3. C / C++ -->
-    <g transform="translate(20, 131)">
-      <text x="0" y="14" class="lang-name">C / C++</text>
-      <text x="365" y="14" text-anchor="end" class="lang-pct">20%</text>
-      <rect x="0" y="22" width="365" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
-      <rect x="2" y="24" width="72" height="4" fill="#D7CFBE"/>
-    </g>
-
-    <!-- 4. Flutter / React / Figma -->
-    <g transform="translate(20, 174)">
-      <text x="0" y="14" class="lang-name">Flutter / React / Figma</text>
-      <text x="365" y="14" text-anchor="end" class="lang-pct">15%</text>
-      <rect x="0" y="22" width="365" height="8" fill="#090909" stroke="#BFAF8E" stroke-width="1"/>
-      <rect x="2" y="24" width="54" height="4" fill="#F5ECD8"/>
-    </g>
   </g>
 </svg>
