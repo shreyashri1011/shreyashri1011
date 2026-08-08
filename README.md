@@ -5,11 +5,6 @@
 
 <br/><br/>
 
-<!-- CENTERED FLOATING ASTRONAUT MASCOT (FREE FLOATING WITH ZERO OVERLAP) -->
-<img src="assets/astronaut.svg" width="220" height="240" alt="Floating Pixel Astronaut Mascot" />
-
-<br/>
-
 <!-- HERO GREETING BANNER -->
 <img src="assets/hero.svg" width="100%" alt="Shreya Retro Space OS Greeting" />
 
@@ -53,22 +48,10 @@
 
 <br/><br/><br/>
 
-<!-- TELEMETRY & GITHUB ORBIT STATS HEADER -->
-<img src="assets/stats_header.svg" width="100%" alt="Stats Header" />
-
-<br/><br/>
-
 <!-- RELIABLE INTEGRATED ORBIT TELEMETRY & LANGUAGE MATRIX -->
 <img src="assets/telemetry_stats.svg" width="100%" alt="Orbit Telemetry & Stats Matrix" />
 
 <br/><br/>
-
-<!-- CONTRIBUTIONS SNAKE ANIMATION -->
-<p align="center">
-  <img src="assets/github-contribution-grid-snake.svg" width="100%" alt="GitHub Contribution Snake Grid" />
-</p>
-
-<br/><br/><br/>
 
 <!-- PIXEL SPACE DIVIDER 3 (COMET DISPLAY) -->
 <p align="center">
@@ -83,11 +66,8 @@
     <td align="center" style="padding: 28px;">
       <img src="assets/saturn.svg" width="90" height="75" alt="Saturn" /><br/>
       <font face="Share Tech Mono, Courier New, monospace" color="#F5ECD8" size="3">
-        <b>[ TRANSMISSION END // END OF LINE ]</b>
+        <b>[ END ]</b>
       </font><br/>
-      <font face="VT323, Courier New, monospace" color="#BFAF8E" size="4">
-        STATION ORBITAL COORDINATES :: SHREYASHRI1011-OS-2026
-      </font>
     </td>
   </tr>
 </table>
