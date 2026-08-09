@@ -44,7 +44,7 @@
 
     <!-- Stat 2: Streak -->
     <g transform="translate(210, 55)">
-      <text x="0" y="32" class="stat-num">17 DAYS</text>
+      <text x="0" y="32" class="stat-num">27 DAYS</text>
       <text x="0" y="52" class="stat-label">CURRENT ORBIT STREAK</text>
     </g>
   </g>
